@@ -1,6 +1,6 @@
 <?php 
 session_start();
-define('ROOT_URL', 'http://localhost/REAL/');
+define('ROOT_URL', 'http://localhost/REAL/library-management-system/');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
