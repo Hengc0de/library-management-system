@@ -1,0 +1,99 @@
+:root {
+    --color-black: #151515;
+    --color-black-lighter: #5b5a5a3d;
+    --color-black-light: #8e8e8ed8;
+    --color-primary-hover: #d9b168 ;
+    --text-white: #f4f4f4;
+    --color-primary: #ffd68c ;
+    --active-color: #ffd68c ;
+    --input-text-color: #fff;
+    --input-bg-color: #284239;
+    --focus-input-bg-color: transparent;
+    --text-color:  #5b5a5aaa;
+}
+.light-theme {
+    --color-black: #ffffff;
+    --color-black-lighter: #5b5a5a26;
+    --color-black-light: #5b5a5aba;
+    --active-color: #949faa ;
+    --text-white: #151515;
+    --color-primary: 
+    #ffd68c ;
+}
+.preview-page .big-preview-page-container .preview-page-container  {
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.preview-page .big-preview-page-container .preview-page-container .button-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.preview-page .big-preview-page-container .preview-page-container a {
+    padding: 10px;
+    background-color: var(--color-primary);
+    transition: all 300ms ease;
+    color: black;
+    text-decoration: none;
+}
+.preview-page .big-preview-page-container .preview-page-container a:hover {
+    background-color: var(--color-primary-hover);
+}
+.preview-page .big-preview-page-container .preview-page-container .preview-page-book img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
+.preview-page .big-preview-page-container .preview-page-container .description .author p {
+    color: var(--color-primary);
+    font-style: normal;
+}
+.preview-page .big-preview-page-container .preview-page-container .description h1{
+    font-family: 'Lora', serif;
+    color: var(--text-white);
+}
+.preview-page .big-preview-page-container .preview-page-container .description p{
+    margin: 20px 0;
+    font-style: italic;
+    color: var(--text-white);
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container p{
+    margin: 0;
+    font-style: normal;
+}
+
+.preview-page .big-preview-page-container .preview-page-container .comment h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-white);
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container .top {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container .top p {
+    margin: 0;
+    font-style: normal;
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container .top small {
+    font-size: 16px;
+    color: var(--color-black-light);
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.preview-page .big-preview-page-container .preview-page-container .comment .comment-container {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .big-preview-page-container .preview-page-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
